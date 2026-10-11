@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lecture 7: Responsive Web Design</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="card lecture">
+  <h1>Lecture 7: Responsive Web Design</h1>
+  <p class="sub">Pages that fit every screen</p>
+  <h2>Summary</h2>
+  <p>This lecture teaches how to make pages adapt to phones, tablets and desktops using the viewport meta tag, relative units, flexible images and media queries.</p>
+  <h2>Topics Covered:</h2>
+  <ul class="topics">
+    <li>Responsive Web Design
+      <ul>
+        <li>Fundamentals
+          <ul><li>Viewport meta tag</li><li>Relative units (%, em, rem)</li><li>Flexible images</li></ul>
+        </li>
+        <li>Media Queries
+          <ul><li>Breakpoints</li><li>Mobile-first approach</li></ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <h3>Example Code:</h3>
+  <pre><code>&lt;style&gt;.r{background:#d6eaf8;padding:10px}
+@media (max-width:600px){.r{background:#fadbd8}}&lt;/style&gt;
+&lt;div class="r"&gt;Resize the window to see the color change.&lt;/div&gt;</code></pre>
+  <h3>Output:</h3>
+  <div class="output">
+    <style>.r{background:#d6eaf8;padding:10px}
+    @media (max-width:600px){.r{background:#fadbd8}}</style>
+    <div class="r">Resize the window to see the color change.</div>
+  </div>
+  <nav class="links"><a href="index.html">Home</a> | <a href="lecture6.html">Previous Lecture</a> | <a href="lecture8.html">Next Lecture</a></nav>
+</div>
+</body>
+</html>

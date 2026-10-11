@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lecture 8: Introduction to JavaScript</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="card lecture">
+  <h1>Lecture 8: Introduction to JavaScript</h1>
+  <p class="sub">Making pages interactive</p>
+  <h2>Summary</h2>
+  <p>This lecture introduces JavaScript: variables, data types, functions, events and how to change page content with the DOM.</p>
+  <h2>Topics Covered:</h2>
+  <ul class="topics">
+    <li>Introduction to JavaScript
+      <ul>
+        <li>Language Basics
+          <ul><li>Variables (let, const)</li><li>Data types</li><li>Operators</li></ul>
+        </li>
+        <li>Working with the Page
+          <ul><li>Functions</li><li>Events</li><li>DOM manipulation</li></ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <h3>Example Code:</h3>
+  <pre><code>&lt;button onclick="document.getElementById('msg').innerText='Hello from JavaScript!'"&gt;Click me&lt;/button&gt;
+&lt;p id="msg"&gt;&lt;/p&gt;</code></pre>
+  <h3>Output:</h3>
+  <div class="output">
+    <button onclick="document.getElementById('msg').innerText='Hello from JavaScript!'">Click me</button>
+    <p id="msg"></p>
+  </div>
+  <nav class="links"><a href="index.html">Home</a> | <a href="lecture7.html">Previous Lecture</a></nav>
+</div>
+</body>
+</html>
